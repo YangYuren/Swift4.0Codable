@@ -12,6 +12,8 @@
 		86A7406920D5F8F900036A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A7406720D5F8F900036A85 /* Main.storyboard */; };
 		86A7406B20D5F8FA00036A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A7406A20D5F8FA00036A85 /* Assets.xcassets */; };
 		86A7406E20D5F8FA00036A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A7406C20D5F8FA00036A85 /* LaunchScreen.storyboard */; };
+		86A7407620D6017000036A85 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 86A7407520D6017000036A85 /* test.json */; };
+		86A7407820D624BC00036A85 /* test2.json in Resources */ = {isa = PBXBuildFile; fileRef = 86A7407720D624BC00036A85 /* test2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		86A7406A20D5F8FA00036A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A7406D20D5F8FA00036A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A7406F20D5F8FA00036A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A7407520D6017000036A85 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		86A7407720D624BC00036A85 /* test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		86A7406220D5F8F900036A85 /* TestAppSwift1 */ = {
 			isa = PBXGroup;
 			children = (
+				86A7407520D6017000036A85 /* test.json */,
+				86A7407720D624BC00036A85 /* test2.json */,
 				86A7406320D5F8F900036A85 /* AppDelegate.swift */,
 				86A7406520D5F8F900036A85 /* ViewController.swift */,
 				86A7406720D5F8F900036A85 /* Main.storyboard */,
@@ -123,7 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A7406E20D5F8FA00036A85 /* LaunchScreen.storyboard in Resources */,
+				86A7407620D6017000036A85 /* test.json in Resources */,
 				86A7406B20D5F8FA00036A85 /* Assets.xcassets in Resources */,
+				86A7407820D624BC00036A85 /* test2.json in Resources */,
 				86A7406920D5F8F900036A85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
 				INFOPLIST_FILE = TestAppSwift1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
 				INFOPLIST_FILE = TestAppSwift1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
